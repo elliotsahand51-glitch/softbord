@@ -1,0 +1,6 @@
+.pdf-reader{position:absolute;inset:0;overflow:auto;overscroll-behavior:contain;overflow-anchor:none;outline:none;scrollbar-gutter:stable;background:var(--workspace,#e6e8ed)}
+.pdf-reader-pages{position:relative;min-width:100%;overflow-anchor:none}
+.pdf-sheet{position:absolute;background:#fff;box-shadow:0 2px 12px #00000024;overflow:hidden;contain:layout style}
+.pdf-page-placeholder{position:absolute;top:24px;left:24px;color:#80838c;font:13px system-ui}
+.pdf-reader:focus-visible{outline:2px solid #a58be6;outline-offset:-2px}
+[data-theme="dark"] .pdf-reader{background:#1e1e25}
